@@ -43,4 +43,6 @@ nenhum defeito além do que você encontrou? Justifique.
 >- Teste do botão de Remoção, se ele remove o item do carrinho ou não.
   
 5. A resposta da pergunta 5 está na seção "Classificação do teste realizado".
-6. [sua resposta]
+
+6. Explique por que ele não é um teste unitário nem um teste de carga.
+>O teste não é unitário porque foi executado no nível de sistema, de forma manual e sem acesso ao código-fonte, sem isolar nenhuma função ou componente. Também não é de carga porque seu objetivo é funcional, com um único usuário, sem simular acessos simultâneos nem medir desempenho.

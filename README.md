@@ -29,7 +29,10 @@ https://github.com/italo-gs/relatorio-de-bugs-lab/issues/1
 1. Por que o resultado esperado é escrito antes de executar o teste?
 >Para evitar no ato do teste, a interpretação de um defeito como um função proposital.
 
-2. [sua resposta]
+2. Qual a diferença entre o caso de teste (CT-04) e o relatório de defeito (a issue)?
+Por que precisamos dos dois?
+>O caso de teste (CT-04) é o roteiro planejado de uma verificação: ele define as pré-condições, os passos e o resultado esperado e é criado antes da execução. Já a issue é o registro de um defeito concreto encontrado quando esse teste falhou: ela apresenta o resultado obtido, o ambiente, a evidência em print, a severidade e a prioridade. Precisamos dos dois porque cumprem funções diferentes e complementares: o CT define qual é o comportamento correto e permite reexecutar o teste para validar a correção, enquanto a issue dá ao desenvolvedor tudo o que ele precisa para reproduzir, entender e priorizar o problema.
+
 3. Quatro casos passaram ou falharam. Podemos afirmar que a loja não tem mais
 nenhum defeito além do que você encontrou? Justifique.
 >Apenas 3 casos de testes passaram. Não posso afirmar que a loja só tem apenas 1 defeito, pois os meus casos de teste não chegou a testar outras áreas que possa apresentar defeitos ou não.

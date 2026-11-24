@@ -1,24 +1,25 @@
-### Descrição
-Ao logar com o usuário `problem_user`, a lista de produtos mostra a mesma imagem
-em todos os itens, e não a imagem correspondente a cada produto.
-### Ambiente
-- Navegador: [ex.: Google Chrome 130]
-- Sistema operacional: [ex.: Windows 11]
-- Endereço: https://www.saucedemo.com/inventory.html
-### Passos para reproduzir
-1. Acessar https://www.saucedemo.com/
-2. Digitar `problem_user` no campo Username
-3. Digitar `secret_sauce` no campo Password
-4. Clicar em Login
-5. Observar as imagens da lista de produtos
-### Resultado esperado
-Cada produto exibe a sua própria imagem.
-### Resultado obtido
-Todos os produtos exibem a mesma imagem (um cachorro de óculos).
-### Severidade e prioridade
-- Severidade: Média
-- Prioridade: Alta
-### Evidência
-[cole a captura de tela aqui]
-### Caso de teste relacionado
-CT-04 (Qase, execução Ciclo 1)
+# Atividade: Primeiro Teste de Software
+**Estudante:** [seu nome completo]
+**Curso e período:** Bacharelado em Sistemas de Informação, 8º período
+**Disciplina:** Teste de Software
+## Sistema testado
+SauceDemo (https://www.saucedemo.com/)
+## Classificação do teste realizado
+[Resposta da pergunta 5: nível, objetivo, visão do código, execução, modo e motivo,
+com uma frase de justificativa em cada]
+## Casos de teste
+![CT-01](ct-01.png)
+![CT-02](ct-02.png)
+![CT-03](ct-03.png)
+![CT-04](ct-04.png)
+## Execução
+![Execução do teste](execucao.png)
+## Defeito encontrado
+[cole aqui o endereço da sua issue, ex.: https://github.com/seu-usuario/relatorio-debugs-lab/issues/1]
+## Respostas às perguntas para refletir
+1. [sua resposta]
+2. [sua resposta]
+3. [sua resposta]
+4. [sua resposta]
+5. A resposta da pergunta 5 está na seção "Classificação do teste realizado".
+6. [sua resposta]

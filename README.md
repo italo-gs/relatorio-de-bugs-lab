@@ -24,7 +24,7 @@ SauceDemo (https://www.saucedemo.com/)
 ## Execução
 ![Execução do teste](execucao.png)
 ## Defeito encontrado
-[cole aqui o endereço da sua issue, ex.: https://github.com/seu-usuario/relatorio-debugs-lab/issues/1]
+https://github.com/italo-gs/relatorio-de-bugs-lab/issues/1
 ## Respostas às perguntas para refletir
 1. Por que o resultado esperado é escrito antes de executar o teste?
 >Para evitar no ato do teste, a interpretação de um defeito como um função proposital.
